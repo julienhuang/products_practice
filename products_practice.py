@@ -19,7 +19,7 @@ else:
 
 # step 3: 讓使用者輸入購買紀錄
 while True:
-	name = input('請輸入商品名稱:')
+	name = input('請輸入商品名稱 (若無新增請輸入q完成輸入):')
 	if name == 'q':
 		break
 	price = input('請輸入商品價格:')
